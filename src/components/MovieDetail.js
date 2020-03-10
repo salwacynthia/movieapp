@@ -18,10 +18,10 @@ const MovieDetail=(props) =>{
                </div>
            <div className="col s12 m8">
                <div className="info-container">
-                <p>Title : {props.currentMovie.title}</p>
-                <p>Language: {props.currentMovie.original_language}</p>
-                <p>Date of release: {props.currentMovie.release_date}</p>
-                <p>Sunopsis:{props.currentMovie.overview}</p>
+                <p style={{fontSize:"20px", fontWeight:"bold",textDecoration:"underline"}}>Title : {props.currentMovie.title}</p>
+                <p style={{fontSize:"15px"}}>Language: {props.currentMovie.original_language}</p>
+                <p style={{fontSize:"15px"}}>Date of release: {props.currentMovie.release_date}</p>
+                <p style={{fontSize:"15px"}}>Sunopsis:{props.currentMovie.overview}</p>
                </div>
            </div>
        </div>

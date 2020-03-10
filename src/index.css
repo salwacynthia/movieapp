@@ -10,15 +10,17 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 /* background: url(../public/images/2.jpg) no-repeat center center fixed; */
 /* background-color: aquamarine; */
 /* background: url(./images/3.jpg) no-repeat center center fixed; */
-background-size: cover;
+
 
 }
 
 header {
-  padding: 50px 15px 0px;
+  /* padding: 50px 15px 0px; */
 
 }
+.App-header {
 
+}
 header h1 {
   color: black;
   font-size: 48px;
