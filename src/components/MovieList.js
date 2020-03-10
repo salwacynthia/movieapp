@@ -3,7 +3,7 @@ import Movie from "./Movie";
 
 const MovieList = props => {
   return (
-    <div className="container">
+    <div className="container-list">
       <div className="row">
         <div className="col s12">
           {props.movies.map((movie, index) => {
@@ -12,7 +12,7 @@ const MovieList = props => {
                 key={index}
                 movieDetail={props.movieDetail}
                 movieId={movie.id}
-                image={movie.poster_path}
+                image={movie.poster_path}                
               />
             );
           })}

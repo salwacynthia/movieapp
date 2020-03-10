@@ -5,7 +5,7 @@ const MovieDetail=(props) =>{
        <div className="container">
            <div className = "row" onClick={props.returnInfo}>
                <i className="fas fa-arrow-left"></i>
-               <span style={{marginLeft:10}}> Go back </span>
+               <span style={{fontStyle:"bold",marginLeft:10,cursor:"default"}}> Go back </span>
            </div>
 
            <div className="row">
@@ -25,7 +25,7 @@ const MovieDetail=(props) =>{
                     <p style={{fontSize:"28px", fontWeight:"bold",textDecoration:"underline"}}>Title : {props.currentMovie.title}</p>
                     <p style={{fontSize:"20px"}}>Language: {props.currentMovie.original_language}</p>
                     <p style={{fontSize:"20px"}}>Date of release: {props.currentMovie.release_date}</p>
-                    <p style={{fontSize:"20px"}}>Sunopsis:{props.currentMovie.overview}</p>
+                    <p style={{fontSize:"20px"}}>Synopsis:{props.currentMovie.overview}</p>
                 </div>
            </div>
        </div>

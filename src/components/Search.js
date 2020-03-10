@@ -29,9 +29,9 @@ class Search extends Component {
       return null;
     }
     return (
-      <ul>
+      <ul  style = {{fontSize: "18px", cursor:"default"}}>
         {this.props.suggestions.map(movie => (
-          <li onClick={() => this.suggestionSelected(movie)}>{movie.title}</li>
+          <li style ={{textAlign:"center", borderStyle:"ridge"}} onClick={() => this.suggestionSelected(movie)}>{movie.title}</li>
         ))}
       </ul>
     );
