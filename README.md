@@ -1,6 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## A Movie Searching App
+Searching movies from MovieDB database. The Search bar gives `Autocomplete` suggestions and the list of movies shows `pagination`. 
+At the end point of the App detail information of the selected movie can be found. 
 
-## Available Scripts
 
 In the project directory, you can run:
 
